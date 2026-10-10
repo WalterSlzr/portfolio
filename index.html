@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Walter Salazar — Graphic Designer</title>
+<meta name="description" content="Portfolio of Walter Salazar, graphic designer based in Barranquilla, Colombia. Visual identity, brand guidelines and photography.">
+<meta property="og:title" content="Walter Salazar — Graphic Designer">
+<meta property="og:description" content="Visual identity, brand guidelines and photography from Barranquilla, Colombia.">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_CO">
+<meta property="og:image" content="assets/img/covers/pet-eternity.jpg">
+<meta name="theme-color" content="#0b0c0f">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/layout.css">
+
+<script src="js/locales/en.js"></script>
+<script src="js/locales/es.js"></script>
+<script src="js/i18n.js"></script>
+</head>
+<body>
+
+<a class="skip" href="#proyectos" data-i18n="skip">Skip to projects</a>
+
+<!-- ── Header ─────────────────────────────────────────── -->
+<header class="header" data-header>
+  <div class="container header__inner">
+    <a class="brand" href="#top" aria-label="Walter Salazar, home" data-i18n-attr="aria-label:brand.aria">
+      <span class="brand__mark" aria-hidden="true">WS</span>
+      <span class="brand__name">Walter Salazar</span>
+    </a>
+    <nav class="nav" data-nav aria-label="Main" data-i18n-attr="aria-label:nav.aria">
+      <a href="#proyectos" data-i18n="nav.projects">Work</a>
+      <a href="#servicios" data-i18n="nav.services">Services</a>
+      <a href="#sobre-mi" data-i18n="nav.about">About</a>
+      <a class="btn btn--accent btn--sm" href="#contacto" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header__tools">
+      <button class="lang" type="button" data-lang-toggle aria-label="Cambiar a español" data-i18n-attr="aria-label:lang.switch">
+        <span class="lang__opt" data-lang="en" lang="en">EN</span>
+        <span class="lang__opt" data-lang="es" lang="es">ES</span>
+      </button>
+      <button class="menu-btn" data-menu aria-expanded="false" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ── Hero ───────────────────────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__orb" aria-hidden="true"></div>
+    <span class="reg reg--tl" aria-hidden="true"></span>
+    <span class="reg reg--tr" aria-hidden="true"></span>
+    <span class="reg reg--bl" aria-hidden="true"></span>
+    <span class="reg reg--br" aria-hidden="true"></span>
+
+    <div class="container hero__inner">
+      <div class="hero__meta u-mono">
+        <span><i class="dot"></i> <span data-i18n="hero.available">Available for projects</span></span>
+        <span data-i18n="hero.location">Barranquilla, CO — 10°59′N 74°48′W</span>
+      </div>
+
+      <h1 class="hero__title" id="hero-title">
+        <span class="line" data-reveal>Walter</span>
+        <span class="line line--indent" data-reveal>Salazar<span class="u-accent">.</span></span>
+      </h1>
+
+      <div class="hero__bottom">
+        <p class="hero__lead" data-reveal data-i18n-html="hero.lead"></p>
+
+        <div class="hero__actions" data-reveal>
+          <a class="btn btn--accent" href="#proyectos">
+            <span data-i18n="hero.cta">View work</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+          <a class="btn btn--ghost-inv" href="#contacto" data-i18n="hero.talk">Let's talk</a>
+        </div>
+
+        <figure class="hero__portrait" data-reveal>
+          <img src="assets/img/avatar.jpg" width="276" height="276" alt="Portrait of Walter Salazar" data-i18n-attr="alt:hero.portrait">
+          <svg class="badge" viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="badge-circle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+            <text><textPath href="#badge-circle" data-i18n="hero.badge">GRAPHIC DESIGN ✦ BRANDING ✦ PHOTOGRAPHY ✦ </textPath></text>
+          </svg>
+        </figure>
+      </div>
+    </div>
+
+    <a class="hero__scroll u-mono" href="#proyectos" aria-label="Scroll down to work" data-i18n-attr="aria-label:hero.scroll">
+      <span>Scroll</span><i></i>
+    </a>
+  </section>
+
+  <!-- ── Marquee ────────────────────────────────────────── -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" data-marquee></div>
+  </div>
+
+  <!-- ── Proyectos ──────────────────────────────────────── -->
+  <section class="section" id="proyectos" aria-labelledby="proyectos-title">
+    <div class="container">
+      <header class="section__head">
+        <span class="kicker u-mono"><b>01</b> / <span data-i18n="work.kicker">Work</span></span>
+        <h2 id="proyectos-title" data-reveal data-i18n-html="work.title"></h2>
+        <div class="filters" role="group" aria-label="Filter projects" data-i18n-attr="aria-label:work.filter.aria" data-filters>
+          <button class="chip is-active" data-filter="all" aria-pressed="true"><span data-i18n="work.filter.all">All</span> <sup data-count="all"></sup></button>
+          <button class="chip" data-filter="branding" aria-pressed="false"><span data-i18n="work.filter.branding">Branding</span> <sup data-count="branding"></sup></button>
+          <button class="chip" data-filter="fotografia" aria-pressed="false"><span data-i18n="work.filter.fotografia">Photography</span> <sup data-count="fotografia"></sup></button>
+        </div>
+      </header>
+
+      <ol class="works" data-works></ol>
+    </div>
+  </section>
+
+  <!-- ── Servicios ──────────────────────────────────────── -->
+  <section class="section section--ink" id="servicios" aria-labelledby="servicios-title">
+    <div class="section__lines" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section__head">
+        <span class="kicker u-mono"><b>02</b> / <span data-i18n="services.kicker">Services</span></span>
+        <h2 id="servicios-title" data-reveal data-i18n-html="services.title"></h2>
+      </header>
+
+      <ul class="services">
+        <li class="service" data-reveal>
+          <span class="service__num u-mono">01</span>
+          <h3 data-i18n="s1.title"></h3>
+          <p data-i18n="s1.body"></p>
+          <span class="service__tag u-mono">Pet Eternity · Villero · Playa Dormida</span>
+        </li>
+        <li class="service" data-reveal>
+          <span class="service__num u-mono">02</span>
+          <h3 data-i18n="s2.title"></h3>
+          <p data-i18n="s2.body"></p>
+          <span class="service__tag u-mono">Mimi's Spa · AM by Andrea Maz</span>
+        </li>
+        <li class="service" data-reveal>
+          <span class="service__num u-mono">03</span>
+          <h3 data-i18n="s3.title"></h3>
+          <p data-i18n="s3.body"></p>
+          <span class="service__tag u-mono" data-i18n="s3.tag"></span>
+        </li>
+        <li class="service" data-reveal>
+          <span class="service__num u-mono">04</span>
+          <h3 data-i18n="s4.title"></h3>
+          <p data-i18n="s4.body"></p>
+          <span class="service__tag u-mono" data-i18n="s4.tag"></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── Sobre mí ───────────────────────────────────────── -->
+  <section class="section" id="sobre-mi" aria-labelledby="sobre-title">
+    <div class="container about">
+      <div class="about__visual" data-reveal>
+        <div class="about__frame">
+          <img src="assets/img/avatar.jpg" width="276" height="276" alt="" loading="lazy">
+        </div>
+        <span class="about__stamp u-mono" aria-hidden="true">WS<br>—<br>BAQ</span>
+      </div>
+
+      <div class="about__copy">
+        <span class="kicker u-mono"><b>03</b> / <span data-i18n="about.kicker">About</span></span>
+        <h2 id="sobre-title" data-reveal data-i18n-html="about.title"></h2>
+        <p class="about__lead" data-reveal data-i18n="about.lead"></p>
+        <p class="u-muted" data-reveal data-i18n="about.body"></p>
+
+        <dl class="stats" data-stats>
+          <div><dt data-i18n="about.stat.projects">Published projects</dt><dd data-stat="projects">8</dd></div>
+          <div><dt data-i18n="about.stat.since">On Behance since</dt><dd>2017</dd></div>
+          <div><dt data-i18n="about.stat.base">Based in</dt><dd>BAQ</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contacto ───────────────────────────────────────── -->
+  <section class="contact" id="contacto" aria-labelledby="contacto-title">
+    <div class="contact__ring" aria-hidden="true"></div>
+    <div class="container contact__inner">
+      <span class="kicker kicker--inv u-mono"><b>04</b> / <span data-i18n="contact.kicker">Contact</span></span>
+      <h2 class="contact__title" id="contacto-title" data-reveal data-i18n-html="contact.title"></h2>
+      <p class="contact__lead" data-reveal data-i18n="contact.lead"></p>
+      <div class="contact__actions" data-reveal>
+        <a class="btn btn--light btn--lg" href="https://www.behance.net/walterslzr4d8f" target="_blank" rel="noopener">
+          <span data-i18n="contact.cta">Message me on Behance</span>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner u-mono">
+    <span>© <span data-year>2026</span> Walter Salazar</span>
+    <span>Barranquilla, Colombia</span>
+    <a href="https://www.behance.net/walterslzr4d8f" target="_blank" rel="noopener">Behance ↗</a>
+    <a href="#top" data-i18n="footer.top">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- ── Project viewer ───────────────────────────────────── -->
+<dialog class="viewer" data-viewer aria-labelledby="viewer-title">
+  <div class="viewer__bar">
+    <div>
+      <span class="viewer__index u-mono" data-v-index></span>
+      <h3 id="viewer-title" data-v-title></h3>
+    </div>
+    <div class="viewer__nav">
+      <button class="icon-btn" data-v-prev aria-label="Previous project" data-i18n-attr="aria-label:viewer.prev">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="icon-btn" data-v-next aria-label="Next project" data-i18n-attr="aria-label:viewer.next">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+      <button class="icon-btn icon-btn--accent" data-v-close aria-label="Close" data-i18n-attr="aria-label:viewer.close">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="viewer__body" data-v-body>
+    <aside class="viewer__info">
+      <p class="viewer__desc" data-v-desc></p>
+      <dl class="viewer__meta" data-v-meta></dl>
+      <a class="btn btn--accent btn--sm" data-v-link target="_blank" rel="noopener">
+        <span data-i18n="viewer.behance">View on Behance</span>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      </a>
+    </aside>
+    <div class="viewer__media" data-v-media></div>
+  </div>
+</dialog>
+
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
